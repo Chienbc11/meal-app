@@ -1,0 +1,112 @@
+.app-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Search */
+.search-container {
+    margin: 10px 0;
+}
+
+.search-container form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search-container form input {
+    padding: 10px 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-search {
+    background-color: pink;
+    color: blue;
+}
+
+.btn-random {
+    background-color: blue;
+    color: white;
+}
+
+
+/* Favorite Food */
+.favorite-food-container {
+    background-color: black;
+    padding: 15px;
+}
+
+.favorite-food-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.food-thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* modal */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    width: 800px;
+    height: 80vh;
+    background-color: white;
+    border: 1px solid black;
+    overflow: scroll;
+    padding: 20px;
+}
+
+.modal-container img {
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.modal-container button {
+    display: block;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: yellow;
+    font-weight: 600;
+    margin-top: 10px;
+}
